@@ -102,13 +102,15 @@ import { RouterModule } from '@angular/router';
       }
 
       .logo {
+        font-family: 'Poppins', sans-serif;
         font-size: 1.5rem;
-        font-weight: bold;
+        font-weight: 700;
         color: #0b74e1;
         text-decoration: none;
         display: flex;
         align-items: center;
         gap: 0.5rem;
+        letter-spacing: -0.02em;
       }
 
       .logo i {
@@ -121,6 +123,7 @@ import { RouterModule } from '@angular/router';
       }
 
       .nav-links a {
+        font-family: 'Poppins', sans-serif;
         color: #374151;
         text-decoration: none;
         font-weight: 500;

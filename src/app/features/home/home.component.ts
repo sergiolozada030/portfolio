@@ -83,11 +83,13 @@ import { RouterModule } from '@angular/router';
       }
 
       .hero-title {
-        font-size: 3.5rem;
-        font-weight: 700;
+        font-family: 'Poppins', sans-serif;
+        font-size: 4rem;
+        font-weight: 800;
         line-height: 1.1;
         margin-bottom: 1rem;
         color: #1f2937;
+        letter-spacing: -0.02em;
       }
 
       .gradient-text {
@@ -98,13 +100,18 @@ import { RouterModule } from '@angular/router';
       }
 
       .hero-subtitle {
+        font-family: 'Poppins', sans-serif;
         font-size: 1.5rem;
+        font-weight: 500;
         color: #6b7280;
         margin-bottom: 1.5rem;
+        letter-spacing: -0.01em;
       }
 
       .hero-description {
+        font-family: 'Poppins', sans-serif;
         font-size: 1.125rem;
+        font-weight: 400;
         line-height: 1.7;
         color: #4b5563;
         margin-bottom: 2rem;
