@@ -1,2 +1,2 @@
 // Barrel exports for services feature
-export { ServicesComponent } from './simple-services.component';
+export { ServicesComponent } from './services.component';

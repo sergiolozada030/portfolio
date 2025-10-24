@@ -1,2 +1,2 @@
 // Barrel exports for portfolio feature
-export { PortfolioComponent } from './simple-portfolio.component';
+export { PortfolioComponent } from './portfolio.component';

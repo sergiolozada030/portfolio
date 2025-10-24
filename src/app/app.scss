@@ -43,9 +43,8 @@
             transform: translateY(-1px);
         }
 
-        &::before {
-            content: '↑';
-            font-weight: bold;
+        i {
+            font-size: 1rem;
         }
 
         @media (max-width: 767px) {

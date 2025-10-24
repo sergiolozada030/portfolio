@@ -14,21 +14,27 @@ import { Component } from '@angular/core';
 
             <div class="contact-methods">
               <div class="contact-item">
-                <span class="icon">📧</span>
+                <span class="icon">
+                  <i class="fas fa-envelope"></i>
+                </span>
                 <div>
                   <strong>Email</strong>
                   <p>sergio.perea@ejemplo.com</p>
                 </div>
               </div>
               <div class="contact-item">
-                <span class="icon">💼</span>
+                <span class="icon">
+                  <i class="fab fa-linkedin"></i>
+                </span>
                 <div>
                   <strong>LinkedIn</strong>
                   <p>linkedin.com/in/sergioperea</p>
                 </div>
               </div>
               <div class="contact-item">
-                <span class="icon">🐙</span>
+                <span class="icon">
+                  <i class="fab fa-github"></i>
+                </span>
                 <div>
                   <strong>GitHub</strong>
                   <p>github.com/sergioperea</p>
@@ -92,6 +98,11 @@ import { Component } from '@angular/core';
       }
       .icon {
         font-size: 1.5rem;
+        color: #0b74e1;
+        width: 2rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
       }
       .contact-item strong {
         color: #0b74e1;

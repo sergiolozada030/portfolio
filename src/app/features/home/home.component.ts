@@ -270,7 +270,7 @@ import { RouterModule } from '@angular/router';
     `,
   ],
 })
-export class SimpleHomeComponent {
+export class HomeComponent {
   codeExample = `@Component({
   selector: 'app-portfolio',
   standalone: true,
