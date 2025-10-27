@@ -9,9 +9,6 @@
         flex: 1;
         padding-top: $header-height;
 
-        @media (min-width: 768px) {
-            padding-top: calc(#{$header-height} + 1rem);
-        }
     }
 
     &__scroll-button {

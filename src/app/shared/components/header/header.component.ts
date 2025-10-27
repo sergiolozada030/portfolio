@@ -12,7 +12,7 @@ import { RouterModule } from '@angular/router';
         <nav class="nav">
           <a routerLink="/" class="logo">
             <i class="fas fa-code"></i>
-            Sergio Perea
+            Perea Code
           </a>
 
           <div class="nav-links">

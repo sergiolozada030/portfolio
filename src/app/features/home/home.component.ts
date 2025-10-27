@@ -21,17 +21,7 @@ import { RouterModule } from '@angular/router';
           </div>
         </div>
         <div class="hero-image">
-          <div class="code-snippet">
-            <div class="code-header">
-              <span class="dot red"></span>
-              <span class="dot yellow"></span>
-              <span class="dot green"></span>
-              <span class="filename">app.component.ts</span>
-            </div>
-            <div class="code-content">
-              <pre><code>{{ codeExample }}</code></pre>
-            </div>
-          </div>
+          <img src="" alt="" />
         </div>
       </div>
     </section>
@@ -277,21 +267,4 @@ import { RouterModule } from '@angular/router';
     `,
   ],
 })
-export class HomeComponent {
-  codeExample = `@Component({
-  selector: 'app-portfolio',
-  standalone: true,
-  template: \`
-    <section class="hero">
-      <h1>{{ title() }}</h1>
-      @if (showContent()) {
-        <p>Bienvenido!</p>
-      }
-    </section>
-  \`
-})
-export class PortfolioComponent {
-  title = signal('Mi Portfolio');
-  showContent = signal(true);
-}`;
-}
+export class HomeComponent {}
